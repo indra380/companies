@@ -121,3 +121,5 @@ logs
 !data/**
 !public/data/
 !public/data/**
+# Ensure companies.json is tracked
+!public/companies.json
