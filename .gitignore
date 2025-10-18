@@ -121,3 +121,5 @@ logs
 !src/data/**
 !public/
 !public/**
+!public/data/
+!public/data/**
