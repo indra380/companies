@@ -1,0 +1,66 @@
+{
+  "name": "companies-directory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern React application for browsing and filtering company directories",
+  "homepage": "https://companies-directory.vercel.app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "type-check": "tsc --noEmit",
+    "api": "json-server --watch data/companies.json --port 3001",
+    "start:full": "concurrently \"npm run api\" \"npm run dev\""
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.394.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.6.0",
+  "react-select": "^5.7.3",
+    "react-intersection-observer": "^9.16.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "json-server": "^1.0.0-beta.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.3"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "companies",
+    "directory",
+    "filtering",
+    "responsive",
+    "modern-ui"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/companies-directory.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
