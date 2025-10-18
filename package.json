@@ -12,7 +12,8 @@
     "lint:fix": "eslint . --ext ts,tsx --fix",
     "type-check": "tsc --noEmit",
     "api": "json-server --watch data/companies.json --port 3001",
-    "start:full": "concurrently \"npm run api\" \"npm run dev\""
+    "start:full": "concurrently \"npm run api\" \"npm run dev\"",
+    "prebuild": "node scripts/copy-data.js"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
