@@ -1,7 +1,6 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  environment = { NODE_VERSION = "18" }
 
 [build.environment]
   NODE_VERSION = "18"
@@ -9,9 +8,8 @@
 [dev]
   command = "npm run dev"
   port = 8888
-  target = "module"
 
 [[redirects]]
-  from = "/*"
+  from = "/**"
   to = "/index.html"
   status = 200
