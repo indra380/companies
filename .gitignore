@@ -7,8 +7,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Build outputs
-build/
-*.local
+
 
 # Runtime data
 pids
