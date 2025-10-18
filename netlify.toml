@@ -1,20 +1,17 @@
-# Netlify configuration
-# This file configures a simple deployment. Because the project uses Vite/TypeScript
-# and cannot run in the browser without a build step, a "no-build" Netlify deployment
-# requires committing the pre-built `dist/` folder into the repository and setting
-# the site to deploy the repository as-is (no build command).
-
 [build]
-  # Default publish directory for Vite builds
+  command = "npm run build"
   publish = "dist"
+  environment = { NODE_VERSION = "18" }
+
+[build.environment]
+  NODE_VERSION = "18"
 
 [dev]
-  # Local netlify dev settings (optional)
   command = "npm run dev"
   port = 8888
+  target = "module"
 
 [[redirects]]
-  # SPA fallback — serve index.html for client-side routing
-  from = "/**"
+  from = "/*"
   to = "/index.html"
   status = 200
