@@ -116,3 +116,9 @@ logs
 
 # Turbo
 .turbo
+
+# Ensure static data and public copies are tracked for production
+!data/
+!data/**
+!public/data/
+!public/data/**
