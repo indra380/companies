@@ -117,9 +117,7 @@ logs
 # Turbo
 
 # Ensure static data and public copies are tracked for production
-!data/
-!data/**
-!public/data/
-!public/data/**
-# Ensure companies.json is tracked
-!public/companies.json
+!src/data/
+!src/data/**
+!public/
+!public/**

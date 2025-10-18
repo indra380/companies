@@ -1,0 +1,323 @@
+{
+  "companies": [
+    {
+      "name": "TechFlow Solutions",
+      "industry": "Technology",
+      "location": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States",
+        "zip": "94105"
+      },
+      "employees": 250,
+      "revenue": 150000,
+      "website": "https://techflow.com",
+      "foundedYear": 2018,
+      "updatedAt": "2025-10-18T05:01:27.819Z",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Green Energy Corp",
+      "industry": "Energy",
+      "location": {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "zip": "73301"
+      },
+      "employees": 450,
+      "revenue": 35000000,
+      "website": "https://greenenergy.com",
+      "foundedYear": 2015,
+      "createdAt": "2023-02-20T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "DataFlow Analytics",
+      "industry": "Finance",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "zip": "10001"
+      },
+      "employees": 85,
+      "revenue": 8500000,
+      "website": "https://dataflow.com",
+      "foundedYear": 2020,
+      "createdAt": "2023-03-10T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "HealthTech Innovations",
+      "industry": "Healthcare",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States",
+        "zip": "02101"
+      },
+      "employees": 320,
+      "revenue": 42000000,
+      "website": "https://healthtech.com",
+      "foundedYear": 2017,
+      "createdAt": "2023-04-05T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "name": "EduPlatform Inc",
+      "industry": "Education",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States",
+        "zip": "98101"
+      },
+      "employees": 1252,
+      "revenue": 12000000,
+      "website": "https://eduplatform.com",
+      "foundedYear": 2019,
+      "updatedAt": "2025-10-18T11:34:15.203Z",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "CloudOps Pro",
+      "industry": "Technology",
+      "location": {
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "zip": "80202"
+      },
+      "employees": 75,
+      "revenue": 7500000,
+      "website": "https://cloudops.com",
+      "foundedYear": 2021,
+      "createdAt": "2023-06-01T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "name": "MediaStream Networks",
+      "industry": "Media",
+      "location": {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "zip": "90210"
+      },
+      "employees": 650,
+      "revenue": 85000000,
+      "website": "https://mediastream.com",
+      "foundedYear": 2005,
+      "updatedAt": "2025-10-18T11:43:55.065Z",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "name": "AgriTech Innovations",
+      "industry": "Agriculture",
+      "location": {
+        "city": "Des Moines",
+        "state": "Iowa",
+        "country": "United States",
+        "zip": "50309"
+      },
+      "employees": 95,
+      "revenue": 9500000,
+      "website": "https://agritech.com",
+      "foundedYear": 2020,
+      "createdAt": "2023-09-05T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "10",
+      "name": "FinanceFlow Systems",
+      "industry": "Finance",
+      "location": {
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "zip": "33101"
+      },
+      "employees": 145,
+      "revenue": 18000000,
+      "website": "https://financeflow.com",
+      "foundedYear": 2018,
+      "createdAt": "2023-10-12T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "11",
+      "name": "Space Dynamics Corp",
+      "industry": "Aerospace",
+      "location": {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States",
+        "zip": "77001"
+      },
+      "employees": 890,
+      "revenue": 120000000,
+      "website": "https://spacedynamics.com",
+      "foundedYear": 2012,
+      "createdAt": "2023-11-01T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "12",
+      "name": "BioTech Research Lab",
+      "industry": "Healthcare",
+      "location": {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States",
+        "zip": "92101"
+      },
+      "employees": 275,
+      "revenue": 32000000,
+      "website": "https://biotechlab.com",
+      "foundedYear": 2016,
+      "createdAt": "2023-12-15T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "13",
+      "name": "AutoTech Innovations",
+      "industry": "Transportation",
+      "location": {
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States",
+        "zip": "48201"
+      },
+      "employees": 520,
+      "revenue": 68000000,
+      "website": "https://autotech.com",
+      "foundedYear": 2015,
+      "createdAt": "2024-01-20T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "14",
+      "name": "CleanWater Solutions",
+      "industry": "Environmental",
+      "location": {
+        "city": "Portland",
+        "state": "Oregon",
+        "country": "United States",
+        "zip": "97201"
+      },
+      "employees": 65,
+      "revenue": 5500000,
+      "website": "https://cleanwater.com",
+      "foundedYear": 2021,
+      "createdAt": "2024-02-10T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Smart Home Tech",
+      "industry": "Technology",
+      "location": {
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States",
+        "zip": "85001"
+      },
+      "employees": 155,
+      "revenue": 16500000,
+      "website": "https://smarthome.com",
+      "foundedYear": 2019,
+      "createdAt": "2024-03-05T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "name": "GameDev Studios",
+      "industry": "Energy",
+      "location": {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States",
+        "zip": "30301"
+      },
+      "employees": 220,
+      "revenue": 28000000,
+      "website": "https://gamedev.com",
+      "foundedYear": 2017,
+      "updatedAt": "2025-10-18T11:44:04.333Z",
+      "id": "16"
+    },
+    {
+      "id": "17",
+      "name": "CyberSec Pro",
+      "industry": "Security",
+      "location": {
+        "city": "Washington",
+        "state": "D.C.",
+        "country": "United States",
+        "zip": "20001"
+      },
+      "employees": 185,
+      "revenue": 24000000,
+      "website": "https://cybersec.com",
+      "foundedYear": 2018,
+      "createdAt": "2024-05-10T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "18",
+      "name": "FoodTech Innovations",
+      "industry": "Food",
+      "location": {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States",
+        "zip": "37201"
+      },
+      "employees": 95,
+      "revenue": 11000000,
+      "website": "https://foodtech.com",
+      "foundedYear": 2020,
+      "createdAt": "2024-06-15T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "19",
+      "name": "Travel Connect",
+      "industry": "Travel",
+      "location": {
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "United States",
+        "zip": "89101"
+      },
+      "employees": 135,
+      "revenue": 19500000,
+      "website": "https://travelconnect.com",
+      "foundedYear": 2019,
+      "createdAt": "2024-07-20T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    },
+    {
+      "id": "20",
+      "name": "LogiChain Solutions",
+      "industry": "Logistics",
+      "location": {
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "United States",
+        "zip": "38101"
+      },
+      "employees": 309,
+      "revenue": 4499999,
+      "website": "https://logichain.com",
+      "foundedYear": 2016,
+      "createdAt": "2024-07-20T00:00:00Z",
+      "updatedAt": "2024-10-17T00:00:00Z"
+    }
+  ]
+}
